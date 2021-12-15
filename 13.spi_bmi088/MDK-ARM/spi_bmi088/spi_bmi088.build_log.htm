@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: MOX china, china, LIC=DSNXV-PDAWK-MSRYP-MQ5MS-WVZYV-TR11M
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.29.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+D:\Swan-Plan\13.spi_bmi088\MDK-ARM\spi_bmi088.uvprojx
+Project File Date:  11/12/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'spi_bmi088'
+compiling main.c...
+..\bsp\boards\control_get.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\bsp\boards\control_get.h(11): warning:  #1295-D: Deprecated declaration control_get - give arg types
+  void control_get();
+..\bsp\boards\control_get.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\bsp\boards\Get_Angle.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/main.c(225): warning:  #223-D: function "MahonyAHRSupdateIMU" declared implicitly
+  		    MahonyAHRSupdateIMU(gyro[0], gyro[1], gyro[2], accel[0], accel[1], accel[2]);
+../Src/main.c: 5 warnings, 0 errors
+compiling Get_Angle.c...
+..\bsp\boards\Get_Angle.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\bsp\boards\Get_Angle.c: 1 warning, 0 errors
+linking...
+Program Size: Code=22686 RO-data=690 RW-data=176 ZI-data=17136  
+FromELF: creating hex file...
+"spi_bmi088\spi_bmi088.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_spi_bmi088
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
